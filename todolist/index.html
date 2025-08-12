@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>To do List</h1>
+      <div class="input-task">
+        <input type="text" name="" id="task" placeholder="Input Task" />
+        <input type="time" name="" id="timeline" />
+        <button id="saveBtn">Save</button>
+      </div>
+      <div class="progress-container">
+        <h3>Task Complete</h3>
+        <div class="progress-bar">
+          <div id="progress-bar-fill"></div>
+        </div>
+      </div>
+      <div class="list-task">
+        <table id="table-task">
+          <tr>
+            <th style="width: 200px">Task</th>
+            <th style="width: 100px">Time</th>
+            <th style="width: 150px">Action</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script/main.js"></script>
+  </body>
+</html>
